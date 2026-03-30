@@ -1,0 +1,24 @@
+{
+  "name": "projeto-s.a-aulas_senai-",
+  "version": "1.0.0",
+  "description": "Projeto S.A para aulas no Senai turma V3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucaslima21-hans/Projeto-S.A-aulas_senai-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/lucaslima21-hans/Projeto-S.A-aulas_senai-/issues"
+  },
+  "homepage": "https://github.com/lucaslima21-hans/Projeto-S.A-aulas_senai-#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
