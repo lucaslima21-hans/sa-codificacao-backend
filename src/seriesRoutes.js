@@ -25,5 +25,18 @@ router.get('/series', (req, res) => {
 });
 
 
+route.patch("/:id", (req, res) => {
+    const { id } = req.params;
+    const { nome } = req.body;
+
+    const seriesUpdated = seriesService.updatePatch(id, nome);
+
+    if (!seriesUpdated) {
+        return res.status(404).json({ message: "serie não encontrada para ser atualizada" });
+    }
+
+    res.json(seriesUpdated);
+});
+
 module.exports = router;
 
